@@ -31,16 +31,49 @@ nav a {
 }
 
 /* Header */
-header {
-    text-align: center;
-    padding: 2rem;
-    background-color: #45a5e4;
-    color: white;
+.site-header {
+    background-color: #45a5e4; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
-h1 {
-    font-size: 2.5rem;
+.header-container {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o cabeçalho */
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: space-between; /* Espaço entre logo e menu */
+    align-items: center; /* Alinhamento vertical */
+    padding: 0 20px; /* Espaçamento lateral */
 }
+
+.logo h1 {
+    font-size: 24px; /* Tamanho da fonte do logo */
+    margin: 0; /* Remove margem padrão */
+}
+
+header {
+    background-color: #0d63ee; /* Cor do cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px; /* Espaço entre o título e a navbar */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+
 
 /* Main */
 main {
@@ -158,7 +191,7 @@ footer {
 }
 
 .carousel-image.active {
-    display: block; 
+    display: block; /* Mostra apenas a imagem ativa */
 }
 
 button.prev, button.next {
@@ -293,4 +326,60 @@ button:hover {
 .redes-sociais a:hover {
     text-decoration: underline; 
 }
+}/* Estilo do cabeçalho */
+.site-header {
+    background-color: #45a5e4; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.header-container {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o cabeçalho */
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: space-between; /* Espaço entre logo e menu */
+    align-items: center; /* Alinhamento vertical */
+    padding: 0 20px; /* Espaçamento lateral */
+}
+
+.logo {
+    display: flex; /* Alinha logo e título em linha */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.logo h1 {
+    font-size: 22px; /* Tamanho da fonte do logo */
+    margin: 0; /* Remove margem padrão */
+}
+
+.logo-image {
+    width: 100px; /* Tamanho da imagem do logo */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaço à direita da imagem */
+}
+
+nav {
+    margin-top: 10px; /* Espaço entre o título e a navbar */
+}
+
+nav a {
+    color: black; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    margin: 0 15px; /* Espaçamento lateral entre os links */
+    transition: text-decoration 0.3s; /* Transição suave */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+/* Título de seção principal */
+.site-header h1 {
+    font-size: 28px; /* Tamanho do título principal */
+    margin: 10px 0 0; /* Margem superior e inferior */
+    text-align: center; /* Centraliza o texto */
+}
+h1{
+    color: white;
 }
