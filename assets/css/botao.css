@@ -38,3 +38,22 @@
     background-color: #357ab8;
 }
 
+<<<<<<< HEAD
+=======
+.filtros button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: var(--color-text-secundario);
+    background-color: var(--color-bg-secundario);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filtros button:hover {
+    background-color: #357ab8;
+}
+
+>>>>>>> ca4f819fcdcc82568fbe57cf387b4e2756aff505

@@ -1,0 +1,47 @@
+/* Cabeçalho */
+.title h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    color: var(--color-text-terciario);
+}
+
+.title p {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+/* Filtros */
+.filtros {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mapa */
+.mapa {
+    text-align: center;
+    padding: 20px;
+    background-color:var(--color-bg-terciario);
+    border-radius: 8px;
+}
+
+/* Lista de Locais de Apoio */
+.locais-apoio {
+    padding: 20px;
+    background-color: #eef7f9;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+
+.locais-apoio ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.locais-apoio li {
+    font-size: 1em;
+    margin: 8px 0;
+}
