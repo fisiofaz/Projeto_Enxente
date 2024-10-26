@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/comunidade.css">
+    <title>Solidariedade e Conscientização em Enchentes</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="mapeamento.html">Mapeamento e Informação</a></li>
+            
+    
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Conscientização e Solidariedade</h1>
+    
+    </header>
+
+    <main>
+        
+        
+        <section class="carrossel">
+            <div class="carousel-container">
+                <img src="../imagem1.jpg" alt="Imagem 1" class="carousel-image active">
+                <img src="../imagem2.jpg" alt="Imagem 2" class="carousel-image">
+                <img src="../imagem3.jpg" alt="Imagem 3" class="carousel-image">
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </section>
+
+        <section class="faq">
+            <h2>Perguntas Frequentes</h2>
+        
+            <div class="faq-item">
+                <p onclick="toggleAnswer('answer1')">O que fazer em caso de enchente?</p>
+                <div id="answer1" style="display: none;">
+                    <p>Procure um local elevado e seguro imediatamente. Evite áreas alagadas e siga as orientações das autoridades.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <p onclick="toggleAnswer('answer2')">Como se preparar para uma enchente?</p>
+                <div id="answer2" style="display: none;">
+                    <p>Mantenha um kit de emergência com alimentos não perecíveis, água, lanternas e documentos importantes em local seguro.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <p onclick="toggleAnswer('answer3')">Quais são os sinais de que uma enchente pode ocorrer?</p>
+                <div id="answer3" style="display: none;">
+                    <p>Fique atento a chuvas intensas, aumento repentino do nível de água em rios e alertas das autoridades locais.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <p onclick="toggleAnswer('answer4')">O que fazer após uma enchente?</p>
+                <div id="answer4" style="display: none;">
+                    <p>Verifique se há danos à sua propriedade, evite entrar em áreas inundadas e siga as instruções das autoridades de segurança.</p>
+                </div>
+            </div>
+        
+            <div class="faq-item">
+                <p onclick="toggleAnswer('answer5')">Como ajudar pessoas afetadas por enchentes?</p>
+                <div id="answer5" style="display: none;">
+                    <p>Contribua com doações, ofereça abrigo, ou participe de campanhas de arrecadação e voluntariado.</p>
+                </div>
+            </div>
+        
+        </section>
+        
+
+        <section class="doacoes">
+            <h2>Solidariedade e Ação Comunitária</h2>
+            <p>Contribua para ajudar quem mais precisa durante as enchentes.</p>
+        
+            <h3>Necessidades Urgentes</h3>
+            <ul>
+                <li>Alimentos não perecíveis</li>
+                <li>Roupas e cobertores</li>
+                <li>Itens de higiene pessoal</li>
+                <li>Medicamentos e primeiros socorros</li>
+                <li>Material escolar para crianças</li>
+                <li>Brinquedos e itens de conforto</li>
+            </ul>
+        
+            <h3>Participe com Doações</h3>
+            <p>Ajude a comunidade em situações de enchente. Preencha o formulário abaixo para contribuir:</p>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="contact">Contato:</label>
+                <input type="text" id="contact" name="contact" required>
+                <button type="submit">Enviar</button>
+            </form>
+        
+            <h3>Cadastro de Voluntários</h3>
+<p>Seja um voluntário e faça a diferença!</p>
+<form id="volunteerForm">
+    <label for="fullName">Nome Completo:</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Digite seu nome completo" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+    <label for="phone">Telefone:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required>
+
+    <label for="address">Endereço:</label>
+    <input type="text" id="address" name="address" placeholder="Digite seu endereço" required>
+
+    <button type="submit" onclick="registerVolunteer(event)">Registrar</button>
+</form>
+
+        </section>
+        
+
+        <section class="contato">
+            <h2>Tem Sugestões ou Dúvidas?</h2>
+            <h3>Entre em Contato Conosco</h3>
+            <p>Estamos aqui para ouvir você! Se tiver perguntas, sugestões ou precisar de mais informações, não hesite em nos contatar.</p>
+            
+            <div class="contato-info">
+                <h4>Informações de Contato</h4>
+                <ul>
+                    <li><strong>E-mail:</strong> <a href="mailto:contato@email.com">contato@email.com</a></li>
+                    <li><strong>Telefone:</strong> <a href="tel:+5511999999999">(11) 9999-9999</a></li>
+                    <li><strong>Endereço:</strong> Rua Exemplo, 123, Cidade, Estado, CEP 00000-000</li>
+                </ul>
+            </div>
+        
+            <h4>Redes Sociais</h4>
+            <p>Siga-nos para atualizações e informações:</p>
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ajuda em Enchentes e uma Ação Solidariedade com a Comunidade. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../assets/js/comunidade.js"></script>
+    
+</body>
+</html>
