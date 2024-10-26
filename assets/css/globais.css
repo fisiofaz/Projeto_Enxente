@@ -5,6 +5,7 @@
     --color-bg-primario:  #f4f4f9;
     --color-bg-secundario: #0077b6;
     --color-bg-terciario: #90e0ef;
+    --color-bg-quartario: #ff4d4d;
     --color-text-primario: #333;
     --color-text-secundario: #fff;
     --color-text-terciario: #023e8a;
@@ -14,4 +15,17 @@ body, button, input, label, h1, h2, h3, h5, h6, p, span{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     color: var(--color-text-primario);
+}
+
+.noticias h2, #categorias h2, .alertas h2, .timeline h2, .faq h2, .formulario-sugestoes h2, .contatos h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-text-terciario);
+    margin-bottom: 1rem;
+}
+
+.noticias p {
+    font-size: 1.5rem;
+    color: var(--color-text-primario);
+    margin-bottom: 1rem;
 }

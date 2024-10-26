@@ -7,40 +7,60 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header>
         <h1>Informação e Comunicação</h1>
         <nav>
             <a href="../index.html">Início</a>
+            <a href="./informacao.html">Informação e Comunicação</a>
             <a href="./mapeamento.html">Mapeamento e Localização</a>
             <a href="./educacao.html">Conscientização e Educação</a>
             <a href="./comunidade.html">Solidariedade e Ação Comunitária</a>
         </nav>
     </header>
+    <main>
+        <section class="alertas">
+            <h2>Avisos Importantes</h2>
+            <div id="alertMessage" class="alert-message">Nenhum alerta ativo no momento</div>
+        </section>
+        <section class="timeline">
+            <h2>Linha do Tempo de Alertas</h2>
+            <ul id="eventTimeline">
+                <!-- Eventos da linha do tempo preenchidos dinamicamente -->
+            </ul>
+        </section>
+        <section class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <h3 class="faq-question">Como saber se minha região está em risco?</h3>
+                <p class="faq-answer">Verifique sempre os alertas no site e consulte o mapa de risco em tempo real.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Quais são os itens essenciais durante uma enchente?</h3>
+                <p class="faq-answer">Tenha água potável, alimentos não perecíveis, documentos, medicamentos e roupas secas.</p>
+            </div>
+        </section>
+        <section class="formulario-sugestoes">
+            <h2>Envie Sugestões ou Relatos</h2>
+            <form id="suggestionForm">
+                <label for="userSuggestion">Sua Sugestão ou Relato:</label>
+                <textarea id="userSuggestion" required></textarea>
+                <button type="submit" id="fundamentoButton">Enviar</button>
+            </form>
+            <p id="feedbackMessage" class="feedback-message"></p>
+        </section>
 
-    <!-- Alerta e Avisos Importantes -->
-    <section class="alertas">
-        <h2>Avisos Importantes</h2>
-        <div id="alertMessage" class="alert-message">Nenhum alerta ativo no momento</div>
-    </section>
+        <section class="contatos">
+            <h2>Contatos de Emergência</h2>
+            <div class="contatos-sos">
+                <p>Defesa Civil: <strong>199</strong></p>
+                <p>Corpo de Bombeiros: <strong>193</strong></p>
+                <p>Polícia Militar: <strong>190</strong></p>
+            </div>            
+        </section>
+    </main>
+    
 
-    <!-- Guias de Ação -->
-    <section class="guias">
-        <h2>Como Agir Durante uma Enchente</h2>
-        <ul>
-            <li>Se possível, dirija-se a um local seguro em áreas elevadas.</li>
-            <li>Evite contato com a água da enchente, pois pode conter contaminantes.</li>
-            <li>Tenha uma mochila de emergência pronta com documentos, água, e alimentos.</li>
-        </ul>
-    </section>
-
-    <!-- Contatos de Emergência -->
-    <section class="contatos">
-        <h2>Contatos de Emergência</h2>
-        <p>Defesa Civil: <strong>199</strong></p>
-        <p>Corpo de Bombeiros: <strong>193</strong></p>
-        <p>Polícia Militar: <strong>190</strong></p>
-    </section>
+  
 
     <!-- Rodapé -->
     <footer>

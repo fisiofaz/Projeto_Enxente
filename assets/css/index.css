@@ -26,19 +26,6 @@ nav a {
     text-align: center;
 }
 
-.noticias h2, #categorias h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--color-text-terciario);
-    margin-bottom: 1rem;
-}
-
-.noticias p {
-    font-size: 1.5rem;
-    color: var(--color-text-primario);
-    margin-bottom: 1rem;
-}
-
 #categorias h2 {
    margin: 2rem 0;
    text-align: center;
