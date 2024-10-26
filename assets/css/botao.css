@@ -1,0 +1,17 @@
+#fundamentoButton {
+    display: block;
+    background-color: #023e8a;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fundamentoText {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    padding: 0 20px;
+}

@@ -18,3 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
 function scrollToCategories() {
     document.getElementById('categorias').scrollIntoView({ behavior: 'smooth' });
 }
+
+function showFundamento() {
+    const fundamentoText = document.getElementById('fundamentoText');
+    if (fundamentoText.style.display === "none") {
+        fundamentoText.style.display = "block";
+    } else {
+        fundamentoText.style.display = "none";
+    }
+}
