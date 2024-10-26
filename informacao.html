@@ -1,47 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Informação e Comunicação</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="informacao.html">Informação e Comunicação</a></li>
-            <li><a href="mapeamento.html">Mapeamento e Localização</a></li>
-            <li><a href="educacao.html">Conscientização e Educação</a></li>
-            <li><a href="comunidade.html">Solidariedade e Ação Comunitária</a></li>
-        </ul>
-    </nav>
+    <!-- Cabeçalho -->
     <header>
         <h1>Informação e Comunicação</h1>
-        <p>Mantenha-se informado e seguro com as atualizações em tempo real</p>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="mapeamento.html">Mapeamento e Localização</a>
+            <a href="educacao.html">Conscientização e Educação</a>
+            <a href="comunidade.html">Solidariedade e Ação Comunitária</a>
+        </nav>
     </header>
-    <main>
-        <section class="alertas">
-            <h2>Alertas Atuais</h2>
-            <div class="alerta vermelho">
-                <p><strong>Alerta Vermelho:</strong> Risco extremo de inundação. Evacue imediatamente áreas de risco.</p>
-            </div>
-            <div class="alerta amarelo">
-                <p><strong>Alerta Amarelo:</strong> Chuva intensa prevista. Prepare-se para possíveis enchentes.</p>
-            </div>
-        </section>
-        <section class="recomendacoes">
-            <h2>Recomendações de Segurança</h2>
-            <ul>
-                <li>Evite áreas inundadas e rotas não seguras.</li>
-                <li>Tenha uma mochila de emergência pronta com itens essenciais.</li>
-            </ul>
-        </section>
-    </main>    
+
+    <!-- Alerta e Avisos Importantes -->
+    <section class="alertas">
+        <h2>Avisos Importantes</h2>
+        <div id="alertMessage" class="alert-message">Nenhum alerta ativo no momento</div>
+    </section>
+
+    <!-- Guias de Ação -->
+    <section class="guias">
+        <h2>Como Agir Durante uma Enchente</h2>
+        <ul>
+            <li>Se possível, dirija-se a um local seguro em áreas elevadas.</li>
+            <li>Evite contato com a água da enchente, pois pode conter contaminantes.</li>
+            <li>Tenha uma mochila de emergência pronta com documentos, água, e alimentos.</li>
+        </ul>
+    </section>
+
+    <!-- Contatos de Emergência -->
+    <section class="contatos">
+        <h2>Contatos de Emergência</h2>
+        <p>Defesa Civil: <strong>199</strong></p>
+        <p>Corpo de Bombeiros: <strong>193</strong></p>
+        <p>Polícia Militar: <strong>190</strong></p>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2021 Ajuda em Enchentes e uma Ação Solidariedade com a Comunidade. Todos os direitos reservados.</p>
+        <p>Contato: <a href="mailto:contato@enchentesprojeto.com">contato@enchentesprojeto.com</a></p>
+        <p>Siga-nos:
+            <a href="#" target="_blank">Instagram</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Facebook</a>
+        </p>
+        <p>Desenvolvido para o Hackathon Enchentes RS</p>
     </footer>
-    
-    <script src="./js/script.js"></script>    
+
+    <script src="script.js"></script>
 </body>
 </html>
+
