@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Ajuda em Enchentes</title>
+    <title>Solução para Enchentes</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="informacao.html">Informação e Comunicação</a></li>
-            <li><a href="mapeamento.html">Mapeamento e Localização</a></li>
-            <li><a href="educacao.html">Conscientização e Educação</a></li>
-            <li><a href="comunidade.html">Solidariedade e Ação Comunitária</a></li>
-        </ul>
-    </nav>
     <header>
-        <h1>Ajuda em Enchentes</h1>
-        <p>Protegendo você e sua comunidade em momentos de crise</p>
+        <h1>Solução para Enchentes</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="informacao.html">Informação e Comunicação</a>
+            <a href="mapeamento.html">Mapeamento e Localização</a>
+            <a href="educacao.html">Conscientização e Educação</a>
+            <a href="comunidade.html">Solidariedade e Ação Comunitária</a>
+        </nav>
     </header>
-   
-    <main>
-        <section class="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>Nosso objetivo é fornecer informações úteis e guiar ações práticas em situações de enchente.</p>
+    <main>         
+        <section class="noticias">
+            <h2>Notícias em Destaque</h2>
+            <p id="newsDisplay">Alerta de enchente na região Sul</p>
         </section>
-        <section>
-            <h2>Informações sobre enchentes</h2>
-            <ul>
-                <li>O que é uma enchente?</li>
-                <li>Quando e como ocorreram</li>
-                <li>Como prevenir enchentes</li>
-            </ul>
+        <section id="categorias">
+            <h2>Categorias de Guia para o Problema das Enchentes</h2>
+            <div class="categoria-item">
+                <h3>1. Informação e Comunicação</h3>
+                <p>Comunicar rapidamente os riscos e locais seguros é essencial para reduzir os impactos.</p>
+            </div>
+            <div class="categoria-item">
+                <h3>2. Mapeamento e Localização</h3>
+                <p>Saber onde estão os abrigos temporários e rotas seguras ajuda na organização da comunidade.</p>
+            </div>
+            <div class="categoria-item">
+                <h3>3. Conscientização e Educação</h3>
+                <p>Informações educativas ajudam a preparar as pessoas para agir corretamente.</p>
+            </div>
+            <div class="categoria-item">
+                <h3>4. Solidariedade e Ação Comunitária</h3>
+                <p>A união da comunidade é fundamental para superar os desafios durante crises.</p>
+            </div>
         </section>
-    </main>
+    </main> 
+    <footer>
+        <p>Contato: <a href="mailto:contato@enchentesprojeto.com">contato@enchentesprojeto.com</a></p>
+        <p>Siga-nos:
+            <a href="#" target="_blank">Instagram</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Facebook</a>
+        </p>
+        <p>Desenvolvido para o Hackathon Enchentes RS</p>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>

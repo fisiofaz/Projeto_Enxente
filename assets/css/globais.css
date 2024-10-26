@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    font-size: 62.5%;
+    --color-bg-primario:  #f4f4f9;
+    --color-bg-secundario: #0077b6;
+    --color-bg-terciario: #90e0ef;
+    --color-text-primario: #333;
+    --color-text-secundario: #fff;
+    --color-text-terciario: #023e8a;
+}
+
+body, button, input, label, h1, h2, h3, h5, h6, p, span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: var(--color-text-primario);
+}

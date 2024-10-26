@@ -1,0 +1,51 @@
+/* Estilos globais */
+header {
+    background-color: var(--color-bg-secundario);
+    color: var(--color-text-secundario);
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-text-primario);
+    margin-bottom: 2rem;
+}
+
+nav a {
+    font-size: 2rem;
+    color: var(--color-text-secundario);
+    text-decoration: none;
+    margin: 0 1.5rem;
+}
+
+.noticias {
+    background-color: var(--color-bg-terciario);
+    padding: 20px;
+    text-align: center;
+}
+
+.noticias h2, #categorias h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-text-terciario);
+    margin-bottom: 1rem;
+}
+
+.noticias p {
+    font-size: 1.5rem;
+    color: var(--color-text-primario);
+    margin-bottom: 1rem;
+}
+
+#categorias h2 {
+   margin: 2rem 0;
+   text-align: center;
+}
+.categoria-item {
+    background-color: #caf0f8;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
