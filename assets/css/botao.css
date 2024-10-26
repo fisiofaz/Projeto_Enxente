@@ -38,3 +38,19 @@
     background-color: #357ab8;
 }
 
+.filtros button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: var(--color-text-secundario);
+    background-color: var(--color-bg-secundario);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filtros button:hover {
+    background-color: #357ab8;
+}
+

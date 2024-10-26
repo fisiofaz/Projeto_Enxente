@@ -3,45 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Mapeamento e Localização</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="informacao.html">Informação e Comunicação</a></li>
-            <li><a href="mapeamento.html">Mapeamento e Localização</a></li>
-            <li><a href="educacao.html">Conscientização e Educação</a></li>
-            <li><a href="comunidade.html">Solidariedade e Ação Comunitária</a></li>
-        </ul>
-    </nav>
     <header>
-        <h1>Mapeamento e Localização</h1>
-        <p>Encontre locais seguros e saiba as rotas em tempo real</p>
-    </header>
+        <nav>
+            <a href="../index.html">Início</a>
+            <a href="./informacao.html">Informação e Comunicação</a>
+            <a href="./mapeamento.html">Mapeamento e Localização</a>
+            <a href="./pages/consciencia_comunidade.html">Conscientização e Solidariedade</a>
+        </nav>
+    </header>  
     <main>
-        <section class="mapa">
-            <h2>Locais de Abrigo</h2>
-            <div class="mapa-container">
-                <!-- Imagem de mapa ou componente visual aqui -->
-                <p><strong>Abrigo 1:</strong> Rua Central, 500</p>
-                <p><strong>Abrigo 2:</strong> Av. Norte, 1123</p>
-            </div>
+        <section class="title">
+           <h1>Mapeamento e Localização</h1>
+            <p>Encontre abrigos temporários, rotas seguras e pontos de ajuda em caso de enchente.</p>
         </section>
+        
         <section class="filtros">
-            <button onclick="filterMarkers('abrigos')">Abrigos</button>
-            <button onclick="filterMarkers('rotas')">Rotas</button>
+            <h2>Filtrar por Tipo de Local</h2>
+            <button onclick="filterLocations('abrigos')">Abrigos</button>
+            <button onclick="filterLocations('rotasSeguras')">Rotas Seguras</button>
+            <button onclick="filterLocations('suprimentos')">Pontos de Suprimentos</button>
         </section>
-        <div id="mapa">
-            <div class="marker abrigos">Abrigo 1</div>
-            <div class="marker rotas">Rota Segura 1</div>
-        </div>
+        
+        <!-- Mapa Interativo -->
+        <section class="mapa">
+            <h2>Mapa de Locais Seguros</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3546534.371622444!2d-55.36703357582507!3d-29.765712479338926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1729978796940!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+        <!-- Lista de Locais de Apoio -->
+        <section class="locais-apoio">
+            <h2>Lista de Locais de Apoio</h2>
+            <ul id="listaLocais">
+                <li><strong>Abrigo Central</strong> - Rua da Solidariedade, 123</li>
+                <li><strong>Ponto de Suprimentos - Igreja Local</strong> - Avenida da Esperança, 456</li>
+                <li><strong>Abrigo Norte</strong> - Rua dos Abrigos, 789</li>
+                <li><strong>Ponto de Água Potável</strong> - Praça da Paz, 101</li>
+            </ul>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2021 Ajuda em Enchentes e uma Ação Solidariedade com a Comunidade. Todos os direitos reservados.</p>
-    </footer>
-    
-    <script src="./js/script.js"></script>    
+        <p>Contato: <a href="mailto:contato@enchentesprojeto.com">contato@enchentesprojeto.com</a></p>
+        <p>Siga-nos:
+            <a href="#" target="_blank">Instagram</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Facebook</a>
+        </p>
+        <p>Desenvolvido para o Hackathon Enchentes RS</p>
+    </footer>   
+    <script src="../assets/js/mapeamento.js"></script>    
 </body>
 </html>
