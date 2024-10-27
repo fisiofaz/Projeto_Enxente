@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-    <img src="https://github.com/fisiofaz/Projeto_Enxente/blob/main/assets/img/Foto%20de%20capa.png">
+    [![Guia Rápido de Informação e Alertas do Rio Grande do Sul](https://github.com/fisiofaz/Projeto_Enxente/blob/main/assets/img/Foto%20de%20capa.png)](https://enchentealertadeinformacaoes.netlify.app)
 </h1>
 
 ## Sobre
