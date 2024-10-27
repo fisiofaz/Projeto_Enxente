@@ -4,7 +4,7 @@
     font-size: 62.5%;
     --color-bg-primario:  #f4f4f9;
     --color-bg-secundario: #0077b6;
-    --color-bg-terciario: #90e0ef;
+    --color-bg-terciario: #4CAF50;
     --color-bg-quartario: #ff4d4d;
     --color-bg-quintario: #45a5e4;
     --color-bg-sexto: #333333;
@@ -25,7 +25,7 @@ body {
 }
 
 .noticias h2, #categorias h2, .alertas h2, .timeline h2, .faq h2, .formulario-sugestoes h2, .contatos h2, .introducao h2, .dicas-preventivas h2, .quiz-educativo h2, .quiz-educativo h2, .acoes-solidarias h2, .galeria-infograficos h2, .contribua h2 {
-
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-text-terciario);
     margin: 2rem;

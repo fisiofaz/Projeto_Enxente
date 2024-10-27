@@ -1,19 +1,14 @@
 #fundamentoButton {
     display: block;
-    background-color: #023e8a;
-    color: #fff;
-    padding: 10px 20px;
-    margin: 20px auto;
+    width: 30rem;
+    background-color: var(--color-bg-terciario);
+    color: var(--color-text-secundario);
+    font-size: 2rem;
+    padding: 2rem 2rem;
+    margin: 2rem auto;
     border: none;
-    border-radius: 5px;
+    border-radius: 3rem;
     cursor: pointer;
-}
-
-#fundamentoText {
-    text-align: center;
-    font-size: 1rem;
-    color: #555;
-    padding: 0 20px;
 }
 
 #quizContainer div {
@@ -38,8 +33,6 @@
     background-color: #357ab8;
 }
 
-<<<<<<< HEAD
-=======
 .filtros button {
     margin: 5px;
     padding: 10px 20px;
@@ -55,5 +48,3 @@
 .filtros button:hover {
     background-color: #357ab8;
 }
-
->>>>>>> ca4f819fcdcc82568fbe57cf387b4e2756aff505
