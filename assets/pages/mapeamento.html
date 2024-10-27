@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeamento e Localização</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="../img/imagem4.png" alt="Logo" class="logo-image">
+                <h1>Guia Rápido de Informação e Alertas do Rio Grande do Sul </h1>
+            </div>            
+        </div>
+        <nav>
+            <a href="../../index.html">Início</a>
+            <a href="../pages/consciencia_comunidade.html">Conscientização e Solidariedade</a>
+            <a href="../pages/mapeamento.html">Mapeamento e Localização</a>
+        </nav>
+    </header>
+    <main>       
+        <h1>Mapeamento e Localização</h1>
+        <p>Encontre abrigos temporários, rotas seguras e pontos de ajuda em caso de enchente.</p>
+        <section class="filtros">
+            <h2>Filtrar por Tipo de Local</h2>
+            <div  class="filtro">
+                <button onclick="filterLocations('abrigos')">Abrigos</button>
+                <button onclick="filterLocations('rotasSeguras')">Rotas Seguras</button>
+                <button onclick="filterLocations('suprimentos')">Pontos de Suprimentos</button>
+            </div>            
+        </section>
+        <section class="mapa">
+            <h2>Mapa de Locais Seguros</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7054910.954482176!2d-58.96512628153096!3d-30.300303019021637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1730066916011!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="locais-apoio">
+            <h2>Lista de Locais de Apoio</h2>
+            <ul id="listaLocais">
+                <li><strong>Abrigo Central</strong> - Rua da Solidariedade, 123</li>
+                <li><strong>Ponto de Suprimentos - Igreja Local</strong> - Avenida da Esperança, 456</li>
+                <li><strong>Abrigo Norte</strong> - Rua dos Abrigos, 789</li>
+                <li><strong>Ponto de Água Potável</strong> - Praça da Paz, 101</li>
+            </ul>
+        </section>       
+    </main>    
+    <footer>
+        <section class="contato">
+            <h2>Tem Sugestões ou Dúvidas?</h2>
+            <h3>Entre em Contato Conosco</h3>
+            <p>Estamos aqui para ouvir você! Se tiver perguntas, sugestões ou precisar de mais informações, não hesite em nos contatar.</p> 
+            <div class="contato-info">
+                <h4>Informações de Contato</h4>
+                <ul>
+                    <li><strong>E-mail:</strong> <a href="mailto:contato@email.com">contato@email.com</a></li>
+                    <li><strong>Telefone:</strong> <a href="tel:+5511999999999">(11) 9999-9999</a></li>
+                    <li><strong>Endereço:</strong> Rua Exemplo, 123, Cidade, Estado, CEP 00000-000</li>
+                </ul>
+            </div>    
+            <h3>Redes Sociais</h3>
+            <p>Siga-nos para atualizações e informações:</p>
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" >Facebook</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>
+            </div>
+        </section>
+    </footer>  
+    <script src="../assets/js/"></script>
+</body>
+</html>
