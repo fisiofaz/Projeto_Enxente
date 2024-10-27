@@ -17,7 +17,11 @@ body, button, input, label, h1, h2, h3, h5, h6, p, span{
     color: var(--color-text-primario);
 }
 
+<<<<<<< HEAD
+.noticias h2, #categorias h2, .alertas h2, .timeline h2, .faq h2, .formulario-sugestoes h2, .contatos h2, .introducao h2, .dicas-preventivas h2, .quiz-educativo h2, .quiz-educativo h2, .acoes-solidarias h2, .galeria-infograficos h2, .contribua h2 {
+=======
 .noticias h2, #categorias h2, .alertas h2, .timeline h2, .faq h2, .formulario-sugestoes h2, .contatos h2, .introducao h2, .dicas-preventivas h2, .quiz-educativo h2, .quiz-educativo h2, .acoes-solidarias h2, .galeria-infograficos h2, .contribua h2, .filtros h2, .mapa h2, .locais-apoio h2 {
+>>>>>>> ca4f819fcdcc82568fbe57cf387b4e2756aff505
     font-size: 2.2rem;
     font-weight: 600;
     color: var(--color-text-terciario);

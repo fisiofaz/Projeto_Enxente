@@ -14,3 +14,219 @@
     padding: 15px;
     border-radius: 8px;
 }
+/* Estilo do cabeçalho */
+.site-header {
+    background-color: #45a5e4; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.header-container {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o cabeçalho */
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: space-between; /* Espaço entre logo e menu */
+    align-items: center; /* Alinhamento vertical */
+    padding: 0 20px; /* Espaçamento lateral */
+}
+
+.logo h1 {
+    font-size: 24px; /* Tamanho da fonte do logo */
+    margin: 0; /* Remove margem padrão */
+}
+
+header {
+    background-color: #0d63ee; /* Cor do cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px; /* Espaço entre o título e a navbar */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    background-color: #f4f4f4; /* Cor de fundo */
+}
+
+/* Estilo das seções */
+main {
+    max-width: 1200px; /* Largura máxima do main */
+    margin: 20px auto; /* Centraliza */
+    padding: 20px; /* Espaçamento */
+    background: white; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento central */
+    padding: 20px 0; /* Espaçamento */
+    margin-top: 20px; /* Margem superior */
+}
+
+footer a {
+    color: #4CAF50; /* Cor dos links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estilo da linha do tempo */
+.timeline {
+    margin: 20px 0; /* Margem vertical */
+}
+
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.timeline-item {
+    padding: 10px 20px;
+    border-left: 3px solid #4CAF50;
+    margin: 10px 0;
+    position: relative;
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #4CAF50;
+    position: absolute;
+    left: -70px;
+    top: 10px;
+}
+
+.timeline-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da FAQ */
+.faq {
+    margin: 20px 0;
+}
+
+.faq-item {
+    margin: 10px 0;
+}
+
+.faq-question {
+    cursor: pointer; /* Mão ao passar o mouse */
+    color: #4CAF50; /* Cor do texto da pergunta */
+}
+
+/* Estilo do formulário */
+.formulario-sugestoes {
+    margin: 20px 0;
+}
+
+textarea {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Borda */
+}
+
+/* Estilo das categorias */
+.categoria-item {
+    margin: 10px 0;
+    background-color: #e7f5e1; /* Fundo suave */
+    padding: 10px;
+    border-radius: 5px;
+}
+.logo {
+    display: flex; /* Usa flexbox para alinhar a imagem e o título */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.logo-image {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção */
+    margin-right: 10px; /* Espaço entre a imagem e o título */
+}
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto clara */
+    padding: 20px 10px; /* Reduzir o espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.contato {
+    max-width: 600px; /* Limita a largura do conteúdo */
+    margin: 0 auto; /* Centraliza o footer na página */
+}
+
+.contato h2 {
+    font-size: 1.5em; /* Tamanho menor para o título principal */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+.contato h3 {
+    font-size: 1.2em; /* Tamanho do subtítulo */
+    margin-bottom: 5px; /* Espaço abaixo do subtítulo */
+}
+
+.contato p {
+    font-size: 0.9em; /* Tamanho padrão do texto */
+    margin: 5px 0; /* Espaço entre parágrafos */
+}
+
+.contato-info h4 {
+    font-size: 1em; /* Tamanho dos subtítulos de informações */
+    margin-top: 15px; /* Espaço acima do subtítulo */
+    margin-bottom: 5px; /* Espaço abaixo do subtítulo */
+}
+
+.contato-info ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.contato-info li {
+    margin: 5px 0; /* Espaço entre os itens da lista */
+}
+
+.redes-sociais a {
+    color: #4CAF50; /* Cor dos links */
+    margin: 0 5px; /* Espaço horizontal entre os links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa os links em negrito */
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Adiciona uma linha de separação acima do footer */
+footer::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #4CAF50; /* Cor da linha */
+    margin: 15px 0; /* Espaço acima e abaixo da linha */
+}
+
+
