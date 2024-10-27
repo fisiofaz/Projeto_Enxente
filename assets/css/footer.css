@@ -68,3 +68,8 @@ footer::before {
     background-color: #4CAF50; /* Cor da linha */
     margin: 15px 0; /* Espaço acima e abaixo da linha */
 }
+
+
+.contato-footer {
+    color: var( --color-text-secundario);
+}
