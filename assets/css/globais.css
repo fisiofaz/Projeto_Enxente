@@ -24,7 +24,7 @@ body {
     background: var(--color-bg-quintario);
 }
 
-.noticias h2, #categorias h2, .alertas h2, .timeline h2, .faq h2, .formulario-sugestoes h2, .contatos h2, .introducao h2, .dicas-preventivas h2, .quiz-educativo h2, .quiz-educativo h2, .acoes-solidarias h2, .galeria-infograficos h2, .contribua h2 {
+.noticias h2, #categorias h2, .alertas h2, .timeline h2, .faq h2, .formulario-sugestoes h2, .contatos h2, .introducao h2, .dicas-preventivas h2, .quiz-educativo h2, .quiz-educativo h2, .acoes-solidarias h2, .galeria-infograficos h2, .contribua h2, .doacoes h2 {
     font-size: 2rem;
     font-weight: 600;
     color: var(--color-text-terciario);

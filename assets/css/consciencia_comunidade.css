@@ -2,14 +2,21 @@ main {
     margin: 2rem;
 }
 
+.dicas-preventivas {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
 .dicas-preventivas ul li {
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
-#quizContainer p {
-    text-align: center;
-    font-size: 1.4em;
-    margin: 2rem;
+
+.dicas-preventivas img {
+    width: 20rem;
+    height: 30rem;
 }
+
 
 /* Estilos para a Galeria de Infográficos */
 .galeria-infograficos {
@@ -24,10 +31,11 @@ main {
     font-size: 1.8em;
     margin-bottom: 15px;
 }
-
-.acoes-solidarias {
-    display: flex;
-    justify-content: space-between;
+.doacoes {
+    padding: 2rem; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem; 
 }
 
 .acoes-solidarias img {
@@ -36,16 +44,39 @@ main {
     margin: 0 10px;
 }
 .acoes-solidarias {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background: var(--color-bg-primario);
     text-align: center;
     padding: 2rem;
-    background-color: var(--color-bg-terciario);
     border-radius: 8px;
     margin: 2rem auto;
 }
-.acoes-solidarias p {
-    font-size: 1.1em;
-    max-width: 60rem;
-    margin: 0 auto 15px auto;
+
+.acoes-solidarias img {
+    width: 40rem;
+    height: 40rem;
+    margin: 0 10px;
+}
+
+.doacoes h2 {
+    color: #45a5e4;
+}
+
+.doacoes h3 {
+    margin-top: 1.5rem; 
+    color: #45a5e4; 
+}
+
+.doacoes p {
+    margin-bottom: 1rem; 
+}
+
+.acoes-solidarias li {
+    margin: 8px 0;
+    font-size: 1em;
+    line-height: 1.5;
 }
 
 .acoes-solidarias ul {
@@ -56,39 +87,38 @@ main {
     padding-left: 2rem
 }
 
-.acoes-solidarias li {
-    margin: 8px 0;
-    font-size: 1em;
-    line-height: 1.5;
+
+.doaçoes-parg {
+    margin-top: 2rem;
+    padding-left: 5rem; 
+    
 }
 
-.contribua p {
-    text-align: center;
-}
-
-.contribua form {
+.doacoes form {
     display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
+    flex-direction: column; 
+    margin: 5rem ; 
 }
 
-.contribua form label {
-    margin-top: 10px;
+.doacoes label {
+    margin-top: 1rem; 
+    font-weight: 600; 
 }
 
-.contribua form input {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.doacoes input {
+    padding: 0.5rem; 
+    border: 1px solid var(--color-bg-quintario); 
+    border-radius: 4px; 
+    margin-top: 0.5rem;
 }
 
-.contribua form button {
-    padding: 10px;
-    background-color: #4a90e2;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.doacoes button {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--color-bg-quintario);
+    color: var(--color-text-secundario); 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 2rem;
 }

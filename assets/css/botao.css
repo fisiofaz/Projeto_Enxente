@@ -11,28 +11,6 @@
     cursor: pointer;
 }
 
-#quizContainer div {
-    display: flex;
-    justify-content: space-between;
-}
-
-#quizContainer button {
-    margin: 1rem;
-    padding: 2rem 2rem;
-    font-size: 1em;
-    color: var(--color-text-secundario);
-    background-color: var(--color-bg-secundario);
-    border: none;
-    border-radius: 3rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-
-#quizContainer button:hover {
-    background-color: #357ab8;
-}
-
 .filtros button {
     margin: 5px;
     padding: 10px 20px;
