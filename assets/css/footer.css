@@ -1,17 +1,70 @@
+
 footer {
-    background-color: #0077b6;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
+    background-color: var(--color-bg-sexto);
+    text-align: center; 
+    padding: 2rem 0;
+    margin-top: 2rem; 
+}
+
+.contato {
+    max-width: 60rem;
+    margin: 0 auto; 
+}
+
+.contato h2 {
+    font-size: 3rem; 
+    margin: 2rem;
+    color: var(--color-text-secundario);
+}
+
+.contato h3 {
+    font-size: 2rem; 
+    margin-bottom: 5px; 
+    color: var(--color-text-secundario);
+}
+
+.contato p {
+    font-size: 1.5rem; 
+    margin: 1rem 0; 
+    color: var(--color-text-secundario);
+}
+
+.contato-info h4 {
+    font-size: 1.5rem; 
+    margin-top: 15px; 
+    margin-bottom: 5px; 
+    color: var(--color-text-secundario);
+}
+
+.contato-info ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.contato-info strong {
+    color: var(--color-text-secundario);
+}
+
+.contato-info li {
+    margin: 5px 0; 
+    font-size: 1.5rem; 
+    color: var(--color-text-quartario);
 }
 
 footer a {
-    color: #fff;
-    text-decoration: underline;
-    margin: 0 5px;
+    margin: 0 5px; 
+    text-decoration: none; 
+    font-weight: 700;
+    color: var(--color-text-quartario); 
+}
+footer a:hover {
+    text-decoration: underline; 
 }
 
-footer p {
-    margin: 10px 0;
+footer::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #4CAF50; /* Cor da linha */
+    margin: 15px 0; /* Espaço acima e abaixo da linha */
 }
