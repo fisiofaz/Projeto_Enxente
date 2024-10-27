@@ -1,0 +1,107 @@
+/* Estilo base (desktop) */
+
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+    /* Centralizando e reduzindo o logo */
+    .logo h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    /* Reorganizando o menu de navegação */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    /* Reduzindo o cabeçalho principal */
+    header h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    /* Diminuindo as seções principais */
+    .section-title {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .section-content p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        padding: 0 1rem;
+        text-align: justify;
+    }
+
+    /* Ajustando botões */
+    button, .button-class {
+        font-size: 1.4rem;
+        padding: 0.6rem 1rem;
+    }
+
+    /* Formulário */
+    .formulario-sugestoes textarea {
+        width: 90% !important;
+        font-size: 1.4rem !important;
+        padding: 0.6rem !important;
+        margin: 1.5rem 1.5rem !important;
+    }
+    /* Rodapé */
+    footer p, .footer-links a {
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+}
+
+/* Ajustes para telas menores que 480px */
+@media (max-width: 480px) {
+    /* Reduzindo logo e título */
+    .logo h1 {
+        font-size: 1.6rem;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    /* Navegação */
+    nav a {
+        font-size: 1.2rem;
+        padding: 0.4rem;
+    }
+
+    /* Texto e botões */
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .section-content p {
+        font-size: 1.2rem;
+    }
+
+    button, .button-class {
+        font-size: 1.2rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    /* Formulário */
+    .formulario-sugestoes textarea, .formulario-sugestoes input[type="text"] {
+        font-size: 1.2rem;
+        margin: 1.5rem 1.5rem !important;
+    }
+
+    /* Rodapé */
+    footer p, .footer-links a {
+        font-size: 1.2rem;
+    }
+}
