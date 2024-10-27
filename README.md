@@ -27,14 +27,14 @@ Foram utilizadas as seguintes tecnologias:
 </p>
 <br/><br/>
 <p>
-    <img align=left margin=10 width=80 src=""/>
-    <p>&nbsp&nbsp&nbsp<br>
-    &nbsp&nbsp&nbsp<a href="">Instagram</a>&nbsp;|&nbsp;<a href="">GitHub</a>&nbsp;|&nbsp;<a href="">LinkedIn</a>&nbsp;</p>
+    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/186410426?v=4"/>
+    <p>&nbsp&nbsp&nbspStephanie Codato<br>
+    &nbsp&nbsp&nbsp<a href="https://www.instagram.com/pc.stephanie/">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/PCSTEPHANIE">GitHub</a>&nbsp;|&nbsp;<a href="linkedin: www.linkedin.com/in/stephanie-codato-61b8a5158">LinkedIn</a>&nbsp;</p>
 </p>
 <br/><br/>
 <p>
     <img align=left margin=10 width=80 src=""/>
-    <p>&nbsp&nbsp&nbspRenan Johannsen de Paula <br>
+    <p>&nbsp&nbsp&nbsp<br>
     &nbsp&nbsp&nbsp<a href="">GitHub</a>&nbsp;|&nbsp;
     <a href="">LinkedIn</a>
     </p>
