@@ -105,3 +105,122 @@
         font-size: 1.2rem;
     }
 }
+
+
+/* Media Queries para dispositivos móveis e tablets */
+@media (max-width: 768px) {
+    /* Ajustes no Header */
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    /* Ajustes de navegação */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Estilos para as seções em colunas */
+    .dicas-preventivas {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dicas-preventivas img {
+        width: 15rem;
+        height: auto;
+    }
+
+    /* Galeria de Infográficos */
+    .galeria-infograficos img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Seção de Ações Solidárias */
+    .acoes-solidarias {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .acoes-solidarias img {
+        width: 100%;
+        max-width: 25rem;
+        height: auto;
+    }
+
+    /* Formulários */
+    .doacoes form, #volunteerForm {
+        padding: 1rem;
+        margin: 2rem 1rem;
+    }
+
+    .doacoes input {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .doacoes button {
+        font-size: 1.2rem;
+    }
+
+    /* Footer */
+    .contato-info ul {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .redes-sociais a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Header e Título */
+    .header-container h1 {
+        font-size: 1.3rem;
+        padding: 0 1rem;
+    }
+
+    .logo-image {
+        width: 3rem;
+    }
+
+    /* Dicas Preventivas */
+    .dicas-preventivas img {
+        width: 100%;
+        height: auto;
+    }
+
+    .dica-preventiva ul li {
+        margin: 1rem 0;
+        font-size: 1.3rem;
+    }
+
+    /* Seção de Doações */
+    .doacoes p, .doacoes h2, .doacoes h3 {
+        font-size: 1.3rem;
+        padding: 0 0.5rem;
+    }
+
+    /* Formulários */
+    .doacoes form {
+        margin: 1rem 0.5rem;
+    }
+
+    .doacoes input, .doacoes button {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    /* Footer */
+    .contato-info ul, .redes-sociais a {
+        font-size: 0.9rem;
+    }
+}
