@@ -36,8 +36,8 @@ Foram utilizadas as seguintes tecnologias:
 <br/><br/>
 <p>
     <img align=left margin=10 width=80 src=""/>
-    <p>&nbsp&nbsp&nbsp<br>
-    &nbsp&nbsp&nbsp<a href="">GitHub</a>&nbsp;|&nbsp;
-    <a href="">LinkedIn</a>
+    <p>&nbsp&nbsp&nbspJessica Maria<br>
+    &nbsp&nbsp&nbsp&nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/jessica-maria-9061a5a0?trk=contact-info">LinkedIn</a>
     </p>
 </p>
